@@ -27,6 +27,7 @@ mongoose
 const recordSchema = new mongoose.Schema({
   description: { type: String, required: true },
   amount: { type: Number, required: true },
+  date: { type: String, required: true },
   category: { type: String, required: true },
   paymentType: { type: String, required: true },
   userID: { type: String, required: true },
